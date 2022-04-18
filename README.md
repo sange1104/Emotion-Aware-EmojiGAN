@@ -1,7 +1,8 @@
 # Emo2GAN
 This repository provides the Tensorflow implementation code for the paper **Learning to Generate Expressive Emojis with Emotion**. This work generates express emojis from quantified emotion scores, using a CGAN-based model.
 
-![case_study_example_total_4](https://user-images.githubusercontent.com/63252403/163818058-b14319c4-fb26-420f-b919-7b62ea4d1fd3.jpg)
+<!-- ![case_study_example_total_4](https://user-images.githubusercontent.com/63252403/163818058-b14319c4-fb26-420f-b919-7b62ea4d1fd3.jpg) -->
+<img src="https://user-images.githubusercontent.com/63252403/163818058-b14319c4-fb26-420f-b919-7b62ea4d1fd3.jpg" width="500" height="130"/>
 
 Overview😎
 -------------
@@ -34,12 +35,24 @@ pip install -r requirements.txt
 
 Our proposed Framework
 -------------
-![model_architecture_v3](https://user-images.githubusercontent.com/63252403/163816911-515d32e6-0d24-48d3-92d2-f30b16beee7a.png)
+<!-- ![model_architecture_v3](https://user-images.githubusercontent.com/63252403/163816911-515d32e6-0d24-48d3-92d2-f30b16beee7a.png) -->
+
+<img src="https://user-images.githubusercontent.com/63252403/163816911-515d32e6-0d24-48d3-92d2-f30b16beee7a.png" width="600" height="250"/>
 
 How to train
 -------------
 You can run [train.py]() setting arguments as follows:
-|Name|Required|Type|Default|
+ 
+* gpu_num: required, int, no default
+* iters: not required, int, 500
+* lambda_1: not required, float, 0.9
+* lambda_2: not required, float, 0.99
+* latent_dim: not required, int, 100
+* lr_g: not required, float, 1e-04
+* iters: not required, float, 1e-04
+* batch_size: not required, int, 32 
+
+<!-- |Name|Required|Type|Default|
 |---|---|---|---|
 |gpu_num|Yes|int|-|
 |iters|No|int|500|
@@ -48,7 +61,8 @@ You can run [train.py]() setting arguments as follows:
 |latent_dim|No|int|100|
 |lr_g|No|float|1e-04|
 |lr_d|No|float|1e-04| 
-|batch_size|No|int|32| 
+|batch_size|No|int|32|  -->
+
 
 You can train the model as follows:
 ```
