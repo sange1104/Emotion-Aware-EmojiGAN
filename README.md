@@ -44,7 +44,7 @@ You can run [train.py]() setting arguments as follows:
 |gpu_num|Yes|int|-|
 |iters|No|int|500|
 |lambda_1|No|float|0.9|
-|lambda_2|No|float|0.994|
+|lambda_2|No|float|0.99|
 |latent_dim|No|int|100|
 |lr_g|No|float|1e-04|
 |lr_d|No|float|1e-04| 
@@ -62,3 +62,12 @@ You can generate any emotional emoji you want to express as follows:
 ```
 python ./scripts/demo.py --gpu_num 0
 ``` 
+
+**Interface**
+
+![demo](https://user-images.githubusercontent.com/63252403/163826964-7404af60-a578-4e7d-a900-04239d8c9921.JPG)
+
+**Output image**
+
+<img src="https://user-images.githubusercontent.com/63252403/163827069-2b6e03a8-6460-405e-bca1-71fb2a72de3f.png" width="45" height="35"/>
+
