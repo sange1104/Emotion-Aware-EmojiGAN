@@ -81,7 +81,6 @@ python ./scripts/demo.py --gpu_num 0
 
 ![demo](https://user-images.githubusercontent.com/63252403/163826964-7404af60-a578-4e7d-a900-04239d8c9921.JPG)
 
-**Output image**
+**Output image** 
 
-<img src="https://user-images.githubusercontent.com/63252403/163827069-2b6e03a8-6460-405e-bca1-71fb2a72de3f.png" width="45" height="35"/>
-
+<img src="https://user-images.githubusercontent.com/63252403/163831915-1da7b5f1-8da8-4ac5-87da-d886f99fbb00.png" width="35" height="35"/> 
