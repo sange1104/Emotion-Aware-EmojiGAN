@@ -1,4 +1,4 @@
-# Emo2GAN
+# Emotion-aware EmojiGAN
 This repository provides the Tensorflow implementation code for the paper **Learning to Generate Expressive Emojis with Emotion**. This work generates express emojis from quantified emotion scores, using a CGAN-based model.
 
 <!-- ![case_study_example_total_4](https://user-images.githubusercontent.com/63252403/163818058-b14319c4-fb26-420f-b919-7b62ea4d1fd3.jpg) -->
