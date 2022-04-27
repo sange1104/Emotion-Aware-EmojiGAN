@@ -43,16 +43,16 @@ How to train
 -------------
 You can run [train.py]() setting arguments as follows:
  
-* gpu_num: required, int, no default
+<!-- * gpu_num: required, int, no default
 * iters: not required, int, 500
 * lambda_1: not required, float, 0.9
 * lambda_2: not required, float, 0.99
 * latent_dim: not required, int, 100
 * lr_g: not required, float, 1e-04
 * iters: not required, float, 1e-04
-* batch_size: not required, int, 32 
+* batch_size: not required, int, 32  -->
 
-<!-- |Name|Required|Type|Default|
+|Name|Required|Type|Default|
 |---|---|---|---|
 |gpu_num|Yes|int|-|
 |iters|No|int|500|
@@ -61,7 +61,7 @@ You can run [train.py]() setting arguments as follows:
 |latent_dim|No|int|100|
 |lr_g|No|float|1e-04|
 |lr_d|No|float|1e-04| 
-|batch_size|No|int|32|  -->
+|batch_size|No|int|32| 
 
 
 You can train the model as follows:
