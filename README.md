@@ -74,8 +74,7 @@ Survey Results
 -------------
 Below is the results of the survey used in our paper. The table shows the survey details for eight emotion categories of anger, anticipation, disgust and fear, joy, sadness, surprise and trust. Here, we report the average value of responds from participants. In addition, we highlight the 𝑝-value with no significance, as they are
 well-representing the input emotion scores.
-![appendix1](https://user-images.githubusercontent.com/63252403/168952162-e17fe605-4c79-4fee-9177-cc57a9e6432a.JPG)
-![appendix2](https://user-images.githubusercontent.com/63252403/168952240-2aa3f297-df6c-4a12-991f-e30062ad8a65.JPG)
+![appendix](https://user-images.githubusercontent.com/63252403/168953921-1bab4058-b848-4ba7-ba30-e0bb19a92852.jpg)
 
 
 
