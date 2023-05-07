@@ -2,7 +2,7 @@
 This repository provides the Tensorflow implementation code for the paper **EAE-GAN: Emotion-Aware Emoji Generative Adversarial Network for Computationally Modeling Diverse and Fine-Grained Human Emotions**. This work generates express emojis from quantified emotion scores, using a CGAN-based model.
 
 <!-- ![case_study_example_total_4](https://user-images.githubusercontent.com/63252403/163818058-b14319c4-fb26-420f-b919-7b62ea4d1fd3.jpg) -->
-<img src="https://user-images.githubusercontent.com/63252403/163818058-b14319c4-fb26-420f-b919-7b62ea4d1fd3.jpg" width="500" height="130"/>
+<img src="img/163818058-b14319c4-fb26-420f-b919-7b62ea4d1fd3.jpg" width="500" height="130"/>
 
 Overview😎
 -------------
@@ -37,7 +37,7 @@ Our proposed Framework
 -------------
 <!-- ![model_architecture_v3](https://user-images.githubusercontent.com/63252403/163816911-515d32e6-0d24-48d3-92d2-f30b16beee7a.png) -->
 
-<img src="https://user-images.githubusercontent.com/63252403/163816911-515d32e6-0d24-48d3-92d2-f30b16beee7a.png" width="600" height="250"/>
+<img src="img/163816911-515d32e6-0d24-48d3-92d2-f30b16beee7a.png" width="600" height="250"/>
 
 How to train
 -------------
@@ -73,9 +73,8 @@ python ./scripts/train.py --gpu_num 0 --iters 500
 Survey Results
 -------------
 Below is the results of the survey used in our paper. The table shows the survey details for eight emotion categories of anger, anticipation, disgust and fear, joy, sadness, surprise and trust. Here, we report the average value of responds from participants. In addition, we highlight the 𝑝-value with no significance, as they are
-well-representing the input emotion scores.
-![appendix](https://user-images.githubusercontent.com/63252403/168953921-1bab4058-b848-4ba7-ba30-e0bb19a92852.jpg)
-
+well-representing the input emotion scores. 
+<img src="img/168953921-1bab4058-b848-4ba7-ba30-e0bb19a92852.jpg"/> 
 
 
 Simple Demo
@@ -86,9 +85,9 @@ python ./scripts/demo.py --gpu_num 0
 ``` 
 
 **Interface**
-
-![demo](https://user-images.githubusercontent.com/63252403/163826964-7404af60-a578-4e7d-a900-04239d8c9921.JPG)
+ 
+<img src="img/163826964-7404af60-a578-4e7d-a900-04239d8c9921.jpg"/> 
 
 **Output image** 
 
-<img src="https://user-images.githubusercontent.com/63252403/163831915-1da7b5f1-8da8-4ac5-87da-d886f99fbb00.png" width="35" height="35"/> 
+<img src="img/163831915-1da7b5f1-8da8-4ac5-87da-d886f99fbb00.png" width="35" height="35"/> 
